@@ -1,0 +1,25 @@
+"Updater"
+{
+	"Information"
+	{
+		"Version"
+		{
+			"Latest"	"2.0.7a"
+			"Previous"	"2.0.7"
+		}
+
+		"Notes"	"Changes in 2.0.7a:"
+		"Notes" "Fixed: dm_headshot_only not working properly."
+		"Notes" "Fixed: Knife, grenade, and taser damage not being allowed when dm_no_knife_damage was enabled."
+		"Notes" "Fixed: dm_headshot_only_allow_knife not working when dm_no_knife_damage was enabled."
+	}
+
+	"Files"
+	{
+		"Plugin"	"Path_SM/plugins/deathmatch.smx"
+		"Plugin"	"Path_SM/configs/deathmatch/deathmatch.ini"
+		"Plugin"	"Path_SM/translations/deathmatch.phrases.txt"
+
+		"Source"	"Path_SM/scripting/deathmatch.sp"
+	}
+}
