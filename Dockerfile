@@ -31,6 +31,7 @@ ADD ./misc $FOLDER/misc
 ADD ./misc/start.sh $FOLDER/start.sh
 
 ADD ./plugins/addons $FOLDER/server/addons
+ADD ./config/autoexec.cfg $FOLDER/server/csgo/cfg
 
 EXPOSE 27015/udp
 
