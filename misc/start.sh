@@ -1,1 +1,1 @@
-./../srcds_run -game csgo -console -usercon +game_type 0 +game_mode 0 +mapgroup mg_active +map de_dust2 +sv_setsteamaccount $GSLT -net_port_try 1
+/home/csgo/nydeby/server/srcds_run -game csgo -console -usercon +game_type 0 +game_mode 0 +mapgroup mg_active +map de_dust2 +sv_setsteamaccount $GSLT -net_port_try 1

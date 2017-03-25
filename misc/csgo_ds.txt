@@ -2,9 +2,8 @@
 //
 @ShutdownOnFailedCommand 1 //set to 0 if updating multiple servers at once
 @NoPromptForPassword 1
-login anonymous
-//for servers which don't need a login
-//login anonymous
-force_install_dir /csgo/csgo_ds
+
+login anonymous 
+force_install_dir /home/csgo/nydeby/server
 app_update 740 validate
 quit
