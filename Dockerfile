@@ -30,8 +30,10 @@ RUN ln -s $FOLDER/steam/linux32/steamclient.so $HOME/.steam/sdk32/steamclient.so
 ADD ./misc $FOLDER/misc
 ADD ./misc/start.sh $FOLDER/start.sh
 
-ADD ./plugins/addons $FOLDER/server/addons
+ADD ./plugins/addons $FOLDER/server/csgo/addons
 ADD ./config/autoexec.cfg $FOLDER/server/csgo/cfg
+ADD ./config/gamemodes_server.txt $FOLDER/server/csgo
+ADD ./config/nydeby_deathmatch.cfg $FOLDER/server/csgo/cfg
 
 EXPOSE 27015/udp
 
