@@ -36,4 +36,4 @@ ADD ./config/autoexec.cfg $FOLDER/server/csgo/cfg
 EXPOSE 27015/udp
 
 WORKDIR $FOLDER
-#ENTRYPOINT ["./start.sh"]
+ENTRYPOINT ["./start.sh"]
