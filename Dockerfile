@@ -32,8 +32,6 @@ ADD ./misc/start.sh $FOLDER/start.sh
 
 ADD ./plugins/addons $FOLDER/server/csgo/addons
 ADD ./config/autoexec.cfg $FOLDER/server/csgo/cfg
-ADD ./config/gamemodes_server.txt $FOLDER/server/csgo
-ADD ./config/nydeby_deathmatch.cfg $FOLDER/server/csgo/cfg
 
 EXPOSE 27015/udp
 
