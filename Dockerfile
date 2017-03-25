@@ -30,6 +30,8 @@ RUN ln -s $FOLDER/steam/linux32/steamclient.so $HOME/.steam/sdk32/steamclient.so
 ADD ./misc $FOLDER/misc
 ADD ./misc/start.sh $FOLDER/start.sh
 
+ADD ./plugins/addons $FOLDER/server/addons
+
 EXPOSE 27015/udp
 
 WORKDIR $FOLDER
